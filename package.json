@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jupemara/cloud-functions-typescript-boilerplate/issues"
   },
-  "homepage": "https://github.com/jupemara/cloud-functions-typescript-boilerplate#readme"
+  "homepage": "https://github.com/jupemara/cloud-functions-typescript-boilerplate#readme",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.3.2"
+  }
 }
