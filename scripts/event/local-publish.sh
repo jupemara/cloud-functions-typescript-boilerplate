@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-path='./scripts/publish/local'
-curl -d "@${path}/data.json" \
+path='./scripts/event'
+curl -d "@${path}/local-data.json" \
   -X POST \
   -H "Ce-Type: true" \
   -H "Ce-Specversion: true" \
