@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
+    "start:event": "./scripts/start/event.sh",
     "event:local": "./scripts/publish/local/index.sh",
     "event:pubsub": "./scripts/publish/pubsub/index.sh"
   },
