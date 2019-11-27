@@ -8,7 +8,9 @@
     "build": "webpack --mode=production",
     "http:start": "./scripts/http/start.sh",
     "event:start": "./scripts/event/start.sh",
-    "event:local-publish": "./scripts/event/local-publish.sh"
+    "event:deploy": "./scripts/event/deploy.sh",
+    "event:local-publish": "./scripts/event/local-publish.sh",
+    "event:pubsub-publish": "./scripts/event/pubsub-publish.sh"
   },
   "repository": {
     "type": "git",
