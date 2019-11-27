@@ -4,7 +4,10 @@
   "description": "cloud functions boilerplate with TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "event:local": "./scripts/publish/local/index.sh",
+    "event:pubsub": "./scripts/publish/pubsub/index.sh"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
     "@google-cloud/functions-framework": "^1.3.2"
   },
   "devDependencies": {
+    "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
